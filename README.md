@@ -10,6 +10,7 @@ Bubblepop uses natural language processing and boosted classifiers on news artic
 ![alt text](graphs/ROC_Curves4.png "ROC Curve")
 The figure above shows the receiver operating characteric curves of 4 different classisfiers classifying documents as appealing to either liberal or conservative readerships, solely based on the article's content.  I chose XGBoost because of its superior performance in the final model.
 ![alt text](graphs/XGBoostConfusionMatrix.png "Confusion Matrix")
+
 Above is a confusion matrix showing the results of using XGBoost to classify readership bias.
 
 And, just to show that it's robust, here is 10-fold cross validation on XGBoost:
